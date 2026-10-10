@@ -1,0 +1,141 @@
+{
+  "ctor": {
+    "params": [],
+    "kwparams": {}
+  },
+  "methods": {
+    "clear": {
+      "params": [
+        [
+          "batch_id",
+          "int"
+        ]
+      ],
+      "kwparams": {},
+      "readonly": false,
+      "ret": "null",
+      "payable": false
+    },
+    "confirm": {
+      "params": [
+        [
+          "batch_id",
+          "int"
+        ],
+        [
+          "match_index",
+          "int"
+        ],
+        [
+          "input_digest",
+          "string"
+        ]
+      ],
+      "kwparams": {},
+      "readonly": false,
+      "ret": "null",
+      "payable": false
+    },
+    "decline": {
+      "params": [
+        [
+          "batch_id",
+          "int"
+        ],
+        [
+          "match_index",
+          "int"
+        ]
+      ],
+      "kwparams": {},
+      "readonly": false,
+      "ret": "null",
+      "payable": false
+    },
+    "expire": {
+      "params": [
+        [
+          "batch_id",
+          "int"
+        ]
+      ],
+      "kwparams": {},
+      "readonly": false,
+      "ret": "null",
+      "payable": false
+    },
+    "get_batch": {
+      "params": [
+        [
+          "batch_id",
+          "int"
+        ]
+      ],
+      "kwparams": {},
+      "readonly": true,
+      "ret": "dict"
+    },
+    "join": {
+      "params": [
+        [
+          "batch_id",
+          "int"
+        ],
+        [
+          "side",
+          "string"
+        ],
+        [
+          "specification",
+          "string"
+        ],
+        [
+          "restrictions",
+          "string"
+        ]
+      ],
+      "kwparams": {},
+      "readonly": false,
+      "ret": "null",
+      "payable": false
+    },
+    "open_batch": {
+      "params": [
+        [
+          "label",
+          "string"
+        ],
+        [
+          "collection_seconds",
+          "int"
+        ],
+        [
+          "confirmation_seconds",
+          "int"
+        ]
+      ],
+      "kwparams": {},
+      "readonly": false,
+      "ret": "int",
+      "payable": false
+    },
+    "version": {
+      "params": [],
+      "kwparams": {},
+      "readonly": true,
+      "ret": "string"
+    },
+    "withdraw": {
+      "params": [
+        [
+          "batch_id",
+          "int"
+        ]
+      ],
+      "kwparams": {},
+      "readonly": false,
+      "ret": "null",
+      "payable": false
+    }
+  }
+}

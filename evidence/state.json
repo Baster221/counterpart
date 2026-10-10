@@ -1,0 +1,100 @@
+{
+  "closes_at": 1791648188,
+  "confirmation_deadline": 1791651791,
+  "confirmation_seconds": 3600,
+  "demands": [
+    {
+      "id": 0,
+      "participant": "0x8CD47C6Ff5670199c536EFa6d34295D577E2822b",
+      "restrictions": "",
+      "specification": "Translate a public English API tutorial into Indonesian.",
+      "withdrawn": false
+    },
+    {
+      "id": 1,
+      "participant": "0x57AE1abfea68EeC3a3787011c74aC00f6dcdFDB0",
+      "restrictions": "",
+      "specification": "Copyedit a public English API tutorial for grammar and clarity, keeping it in English.",
+      "withdrawn": false
+    }
+  ],
+  "id": 1,
+  "input_digest": "847d5b9dbd706b9539525b58789b02bba6b69fc8a0d47a4ab75358bebf9a7f3b",
+  "label": "Translation and editing; greedy trap",
+  "matches": [
+    {
+      "demand_confirmed": true,
+      "demand_id": 0,
+      "demand_participant": "0x8CD47C6Ff5670199c536EFa6d34295D577E2822b",
+      "status": "AGREED",
+      "supply_confirmed": true,
+      "supply_id": 1,
+      "supply_participant": "0xB6BBd7929BDfB52A9E5d64e5331927DD5291Db03"
+    },
+    {
+      "demand_confirmed": true,
+      "demand_id": 1,
+      "demand_participant": "0x57AE1abfea68EeC3a3787011c74aC00f6dcdFDB0",
+      "status": "AGREED",
+      "supply_confirmed": true,
+      "supply_id": 0,
+      "supply_participant": "0x58bf52C602688773F3863F4342ba80e69F8F5144"
+    }
+  ],
+  "matrix": [
+    {
+      "admissible": "YES",
+      "confidence": "high",
+      "demand": 0,
+      "fulfills": "YES",
+      "supply": 0
+    },
+    {
+      "admissible": "YES",
+      "confidence": "high",
+      "demand": 0,
+      "fulfills": "YES",
+      "supply": 1
+    },
+    {
+      "admissible": "YES",
+      "confidence": "high",
+      "demand": 1,
+      "fulfills": "YES",
+      "supply": 0
+    },
+    {
+      "admissible": "YES",
+      "confidence": "high",
+      "demand": 1,
+      "fulfills": "NO",
+      "supply": 1
+    }
+  ],
+  "matrix_demand_ids": [
+    0,
+    1
+  ],
+  "matrix_supply_ids": [
+    0,
+    1
+  ],
+  "owner": "0x8d256bbf31531d8e4D12C380bC1d321Ee4c1CC21",
+  "status": "CLEARED",
+  "supplies": [
+    {
+      "id": 0,
+      "participant": "0x58bf52C602688773F3863F4342ba80e69F8F5144",
+      "restrictions": "Public API tutorials only.",
+      "specification": "I offer English-to-Indonesian translation and English grammar/clarity copyediting of API tutorials.",
+      "withdrawn": false
+    },
+    {
+      "id": 1,
+      "participant": "0xB6BBd7929BDfB52A9E5d64e5331927DD5291Db03",
+      "restrictions": "Public API tutorials only.",
+      "specification": "I offer translation of English API tutorials into Indonesian. I do not offer English copyediting.",
+      "withdrawn": false
+    }
+  ]
+}

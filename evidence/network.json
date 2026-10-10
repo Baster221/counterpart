@@ -1,0 +1,262 @@
+[
+  {
+    "label": "deploy",
+    "hash": "0x40c73fff8089b06cc39c1dda186ab10b7fe385755b6fbf4ac75dee709f59ab21",
+    "status": "FINALIZED",
+    "result": "MAJORITY_AGREE",
+    "execution": "SUCCESS",
+    "leader_result": {
+      "status": "return",
+      "payload": {
+        "readable": "null"
+      }
+    },
+    "eq_outputs": {},
+    "votes": [
+      "IDLE",
+      "AGREE",
+      "AGREE",
+      "AGREE",
+      "IDLE"
+    ],
+    "rounds": "1",
+    "created_at": "2026-10-10T15:42:01.223821+00:00"
+  },
+  {
+    "label": "open service exchange",
+    "hash": "0xd943917b1fab9d81561086853e6d1003c4cfc8ce4e4159fa54ad2fe2f4bddbbe",
+    "status": "FINALIZED",
+    "result": "MAJORITY_AGREE",
+    "execution": "SUCCESS",
+    "leader_result": {
+      "status": "return",
+      "payload": {
+        "readable": "1"
+      }
+    },
+    "eq_outputs": {},
+    "votes": [
+      "IDLE",
+      "AGREE",
+      "AGREE",
+      "AGREE",
+      "IDLE"
+    ],
+    "rounds": "1",
+    "created_at": "2026-10-10T15:48:08.833443+00:00"
+  },
+  {
+    "label": "participant 1 opts in",
+    "hash": "0x435e997f7f37afc94436bd60fc7b461b7b87c16c3d85b34e8e23b0c23529820a",
+    "status": "FINALIZED",
+    "result": "MAJORITY_AGREE",
+    "execution": "SUCCESS",
+    "leader_result": {
+      "status": "return",
+      "payload": {
+        "readable": "null"
+      }
+    },
+    "eq_outputs": {},
+    "votes": [
+      "IDLE",
+      "AGREE",
+      "IDLE",
+      "AGREE",
+      "AGREE"
+    ],
+    "rounds": "1",
+    "created_at": "2026-10-10T15:48:44.736066+00:00"
+  },
+  {
+    "label": "participant 2 opts in",
+    "hash": "0x7b6f0e289af47fdcaf44229fa0fff6627df69d555d3598990f19932d125248b6",
+    "status": "FINALIZED",
+    "result": "MAJORITY_AGREE",
+    "execution": "SUCCESS",
+    "leader_result": {
+      "status": "return",
+      "payload": {
+        "readable": "null"
+      }
+    },
+    "eq_outputs": {},
+    "votes": [
+      "IDLE",
+      "IDLE",
+      "AGREE",
+      "AGREE",
+      "AGREE"
+    ],
+    "rounds": "1",
+    "created_at": "2026-10-10T15:49:21.651802+00:00"
+  },
+  {
+    "label": "participant 3 opts in",
+    "hash": "0xc495c97a9fc0684a50e3984eba782c950a1d6191ac897ad363e9f597bdd0e162",
+    "status": "FINALIZED",
+    "result": "MAJORITY_AGREE",
+    "execution": "SUCCESS",
+    "leader_result": {
+      "status": "return",
+      "payload": {
+        "readable": "null"
+      }
+    },
+    "eq_outputs": {},
+    "votes": [
+      "AGREE",
+      "IDLE",
+      "IDLE",
+      "AGREE",
+      "AGREE"
+    ],
+    "rounds": "1",
+    "created_at": "2026-10-10T15:50:00.847691+00:00"
+  },
+  {
+    "label": "participant 4 opts in",
+    "hash": "0x56d3c0730b6ca71e20cd724ae90a61355bde840bf71d048913cb4cea98c9a0e2",
+    "status": "FINALIZED",
+    "result": "MAJORITY_AGREE",
+    "execution": "SUCCESS",
+    "leader_result": {
+      "status": "return",
+      "payload": {
+        "readable": "null"
+      }
+    },
+    "eq_outputs": {},
+    "votes": [
+      "IDLE",
+      "AGREE",
+      "AGREE",
+      "AGREE",
+      "IDLE"
+    ],
+    "rounds": "1",
+    "created_at": "2026-10-10T15:50:36.243654+00:00"
+  },
+  {
+    "label": "full matrix and maximum matching",
+    "hash": "0xcff3772a624f1a26418c45f5fe3272c4e4de4317454112bea0280f4c519dee88",
+    "status": "FINALIZED",
+    "result": "MAJORITY_AGREE",
+    "execution": "SUCCESS",
+    "leader_result": {
+      "status": "return",
+      "payload": {
+        "readable": "null"
+      }
+    },
+    "eq_outputs": {
+      "0": {
+        "status": "return",
+        "payload": {
+          "readable": "[{\"admissible\":\"YES\"\"confidence\":\"high\"\"demand\":0\"fulfills\":\"YES\"\"supply\":0},{\"admissible\":\"YES\"\"confidence\":\"high\"\"demand\":0\"fulfills\":\"YES\"\"supply\":1},{\"admissible\":\"YES\"\"confidence\":\"high\"\"demand\":1\"fulfills\":\"YES\"\"supply\":0},{\"admissible\":\"YES\"\"confidence\":\"high\"\"demand\":1\"fulfills\":\"NO\"\"supply\":1},]"
+        }
+      }
+    },
+    "votes": [
+      "AGREE",
+      "AGREE",
+      "AGREE",
+      "DISAGREE",
+      "IDLE"
+    ],
+    "rounds": "1",
+    "created_at": "2026-10-10T16:03:11.060250+00:00"
+  },
+  {
+    "label": "demand confirms match 0",
+    "hash": "0x4f0ea32ae93a27436dc054f10a791f0211a602ac975d5177796ba02c668acad7",
+    "status": "FINALIZED",
+    "result": "MAJORITY_AGREE",
+    "execution": "SUCCESS",
+    "leader_result": {
+      "status": "return",
+      "payload": {
+        "readable": "null"
+      }
+    },
+    "eq_outputs": {},
+    "votes": [
+      "AGREE",
+      "IDLE",
+      "IDLE",
+      "AGREE",
+      "AGREE"
+    ],
+    "rounds": "1",
+    "created_at": "2026-10-10T16:04:07.227773+00:00"
+  },
+  {
+    "label": "supplier confirms match 0",
+    "hash": "0x611c5c2cb0a9b8e5664cac08ec2b0e97b8f8e8b3786be96be4595bbe18a7b9bd",
+    "status": "FINALIZED",
+    "result": "MAJORITY_AGREE",
+    "execution": "SUCCESS",
+    "leader_result": {
+      "status": "return",
+      "payload": {
+        "readable": "null"
+      }
+    },
+    "eq_outputs": {},
+    "votes": [
+      "IDLE",
+      "AGREE",
+      "AGREE",
+      "AGREE",
+      "IDLE"
+    ],
+    "rounds": "1",
+    "created_at": "2026-10-10T16:04:44.197343+00:00"
+  },
+  {
+    "label": "demand confirms match 1",
+    "hash": "0xd6d2cd4453d5c9ea5298d68139a40693d9c6a2d6b7271f91ab270d6d34de7584",
+    "status": "FINALIZED",
+    "result": "MAJORITY_AGREE",
+    "execution": "SUCCESS",
+    "leader_result": {
+      "status": "return",
+      "payload": {
+        "readable": "null"
+      }
+    },
+    "eq_outputs": {},
+    "votes": [
+      "IDLE",
+      "AGREE",
+      "AGREE",
+      "IDLE",
+      "AGREE"
+    ],
+    "rounds": "1",
+    "created_at": "2026-10-10T16:05:22.114521+00:00"
+  },
+  {
+    "label": "supplier confirms match 1",
+    "hash": "0x4c04ebd416723014f429c67be92460f29d7c1c7fa6b8ae590f09223f7f1276b4",
+    "status": "FINALIZED",
+    "result": "MAJORITY_AGREE",
+    "execution": "SUCCESS",
+    "leader_result": {
+      "status": "return",
+      "payload": {
+        "readable": "null"
+      }
+    },
+    "eq_outputs": {},
+    "votes": [
+      "AGREE",
+      "IDLE",
+      "AGREE",
+      "IDLE",
+      "AGREE"
+    ],
+    "rounds": "1",
+    "created_at": "2026-10-10T16:05:59.859634+00:00"
+  }
+]

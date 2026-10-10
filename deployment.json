@@ -1,0 +1,17 @@
+{
+  "network": "studionet",
+  "chain_id": 61999,
+  "rpc": "https://studio.genlayer.com/api",
+  "address": "0xE3588c50857B2690577c0A3175884279C39D1288",
+  "explorer": "https://explorer-studio.genlayer.com/address/0xE3588c50857B2690577c0A3175884279C39D1288",
+  "deployment_transaction": "0x40c73fff8089b06cc39c1dda186ab10b7fe385755b6fbf4ac75dee709f59ab21",
+  "deployer": "0x8d256bbf31531d8e4D12C380bC1d321Ee4c1CC21",
+  "source_path": "contracts/counterpart.py",
+  "source_sha256": "8534138390712061115940085b019b1d5cc566f49e2c07f3cfd504a12d8b3e9e",
+  "deployed_source_sha256": "8534138390712061115940085b019b1d5cc566f49e2c07f3cfd504a12d8b3e9e",
+  "byte_for_byte_match": true,
+  "runner": "py-genlayer:1jb45aa8ynh2a9c9xn3b7qqh8sm5q93hwfp7jqmwsfhh8jpz09h6",
+  "deployment_status": "FINALIZED",
+  "deployment_execution": "SUCCESS",
+  "verified_at": "2026-10-10T15:45:06.496Z"
+}
