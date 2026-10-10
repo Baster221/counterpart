@@ -6,7 +6,7 @@ Service exchanges often describe needs and offers in ordinary language: translat
 
 Counterpart separates those jobs. GenLayer validators independently derive the **complete two-way compatibility matrix**. The deterministic contract exhausts the bounded assignment space, selects maximum-cardinality matching with a specified tie-break, and creates one-to-one reservations. Both matched participants must confirm the immutable snapshot before a reservation becomes an agreement.
 
-One standalone Intelligent Contract, no frontend and no backend oracle. See [source](contracts/counterpart.py), [consensus and optimizer](docs/CONSENSUS.md), [threat model](docs/SECURITY.md), [submission text](SUBMISSION.md), and [deployment evidence](deployment.json).
+One standalone Intelligent Contract, no frontend and no backend oracle. See [source](contracts/counterpart.py), [consensus and optimizer](docs/CONSENSUS.md), [threat model](docs/SECURITY.md), and [deployment evidence](deployment.json).
 
 ## The greedy trap
 
